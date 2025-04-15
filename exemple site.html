@@ -13,15 +13,15 @@
       color: #3e3e3e;
     }
     header {
-      background-color: #fff3e0;
-      padding: 2rem;
+      background: linear-gradient(to right, #f8e8d4, #fcebd5);
+      padding: 3rem 2rem 2rem 2rem;
       text-align: center;
       box-shadow: 0 2px 10px rgba(0,0,0,0.1);
       position: relative;
     }
     header h1 {
       font-family: 'Playfair Display', serif;
-      font-size: 3rem;
+      font-size: 3.5rem;
       margin: 0;
       color: #a0522d;
     }
@@ -29,43 +29,45 @@
       display: flex;
       justify-content: center;
       gap: 2rem;
-      margin-top: 1rem;
+      margin-top: 1.5rem;
       flex-wrap: wrap;
     }
     nav a {
       text-decoration: none;
       color: #6b4f3b;
       font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #a0522d;
     }
     .header-banner {
-      margin-top: 1rem;
-      font-size: 1.2rem;
+      margin-top: 1.5rem;
+      font-size: 1.3rem;
       color: #7b5e4c;
     }
     .hero {
-      background-image: url('https://images.unsplash.com/photo-1606813900923-dcbd6b3d7f5a');
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('header-background.jpg');
       background-size: cover;
       background-position: center;
-      height: 60vh;
+      height: 50vh;
       display: flex;
       align-items: center;
       justify-content: center;
       color: white;
-      text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
-      flex-direction: column;
+      text-align: center;
     }
     .hero-content {
       background-color: rgba(0, 0, 0, 0.5);
       padding: 2rem 3rem;
       border-radius: 15px;
-      text-align: center;
     }
     .hero h2 {
-      font-size: 3rem;
+      font-size: 2.5rem;
       margin: 0;
     }
     .hero p {
-      font-size: 1.3rem;
+      font-size: 1.2rem;
       margin-top: 1rem;
     }
     section {
@@ -115,7 +117,7 @@
       <a href="#menu">Menü</a>
       <a href="#contact">Kontakt</a>
     </nav>
-    <div class="header-banner">Französische Köstlichkeiten mit Liebe gebacken</div>
+    <div class="header-banner">Ohio Köstlichkeiten mit Liebe gebacken</div>
   </header>
   <div class="hero">
     <div class="hero-content">
@@ -150,13 +152,13 @@
   </section>
   <section id="contact">
     <h2>Kontakt</h2>
-    <p>Besuchen Sie uns in der Rue de Paris 123, Toulouse oder rufen Sie uns an unter (012) 345-6789. Geöffnet täglich von 7:00 bis 18:00 Uhr.</p>
+    <p>Besuchen Sie uns in der Sigma Strasse, Berlin oder rufen Sie uns an unter 3459439. Geöffnet täglich von 7:00 bis 18:00 Uhr.</p>
     <div class="map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2888.638628166667!2d1.4442091155027366!3d43.604652479121335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aea5c69d8aeb8b%3A0x402d7337b9f3860!2sToulouse!5e0!3m2!1sde!2sfr!4v1616351096950!5m2!1sde!2sfr" allowfullscreen="" loading="lazy"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2428.4421697633556!2d13.369205176412993!3d52.51514877201774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851de14ea25d7%3A0x21e0fbc098089021!2sFranz%C3%B6sisches%20Gymnasium%20Berlin!5e0!3m2!1sde!2sfr!4v1713189475103!5m2!1sde!2sfr" allowfullscreen="" loading="lazy"></iframe>
     </div>
   </section>
   <footer>
-    &copy; 2025 La Petite Bäckerei. Alle Rechte vorbehalten.
+    &copy; 2025 Von Raphael Paliwal.
   </footer>
 </body>
 </html>
