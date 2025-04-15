@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Petite Bäckerei</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #fdf6f0;
+      color: #3e3e3e;
+    }
+    header {
+      background-color: #fff3e0;
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      position: relative;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      margin: 0;
+      color: #a0522d;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 1rem;
+      flex-wrap: wrap;
+    }
+    nav a {
+      text-decoration: none;
+      color: #6b4f3b;
+      font-weight: bold;
+    }
+    .header-banner {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      color: #7b5e4c;
+    }
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1606813900923-dcbd6b3d7f5a');
+      background-size: cover;
+      background-position: center;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+      flex-direction: column;
+    }
+    .hero-content {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 2rem 3rem;
+      border-radius: 15px;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    .hero p {
+      font-size: 1.3rem;
+      margin-top: 1rem;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .menu-items {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    .item {
+      background-color: white;
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    .item h3 {
+      margin-top: 0;
+      color: #a0522d;
+    }
+    .map {
+      margin-top: 2rem;
+      text-align: center;
+    }
+    iframe {
+      border: none;
+      width: 100%;
+      height: 300px;
+      border-radius: 12px;
+    }
+    footer {
+      background-color: #fff3e0;
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #7b6b5f;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>La Petite Bäckerei</h1>
+    <nav>
+      <a href="#about">Über Uns</a>
+      <a href="#menu">Menü</a>
+      <a href="#contact">Kontakt</a>
+    </nav>
+    <div class="header-banner">Französische Köstlichkeiten mit Liebe gebacken</div>
+  </header>
+  <div class="hero">
+    <div class="hero-content">
+      <h2>Täglich Frisch Gebacken</h2>
+      <p>Entdecken Sie unsere handgemachten Brote und süßen Spezialitäten</p>
+    </div>
+  </div>
+  <section id="about">
+    <h2>Über Uns</h2>
+    <p>Bei La Petite Bäckerei vereinen wir Tradition und Eleganz, um Ihnen eine feine Auswahl an handgemachten Gebäcken, knusprigen Broten und köstlichen Desserts zu bieten – mit Liebe und lokalen Zutaten zubereitet.</p>
+  </section>
+  <section id="menu">
+    <h2>Unser Menü</h2>
+    <div class="menu-items">
+      <div class="item">
+        <h3>Croissant</h3>
+        <p>Buttrig, blättrig und jeden Morgen frisch gebacken.</p>
+      </div>
+      <div class="item">
+        <h3>Baguette</h3>
+        <p>Klassisches französisches Brot mit knuspriger Kruste und weichem Inneren.</p>
+      </div>
+      <div class="item">
+        <h3>Macarons</h3>
+        <p>Bunt, zart und lecker – in vielen Geschmacksrichtungen erhältlich.</p>
+      </div>
+      <div class="item">
+        <h3>Schokoladen-Éclair</h3>
+        <p>Gefüllt mit reichhaltiger Creme und überzogen mit dunklem Schokoladenguss.</p>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <h2>Kontakt</h2>
+    <p>Besuchen Sie uns in der Rue de Paris 123, Toulouse oder rufen Sie uns an unter (012) 345-6789. Geöffnet täglich von 7:00 bis 18:00 Uhr.</p>
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2888.638628166667!2d1.4442091155027366!3d43.604652479121335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aea5c69d8aeb8b%3A0x402d7337b9f3860!2sToulouse!5e0!3m2!1sde!2sfr!4v1616351096950!5m2!1sde!2sfr" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>
+  <footer>
+    &copy; 2025 La Petite Bäckerei. Alle Rechte vorbehalten.
+  </footer>
+</body>
+</html>
